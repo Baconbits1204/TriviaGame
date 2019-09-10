@@ -1,0 +1,13 @@
+.choice {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.choice:hover {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
