@@ -1,3 +1,11 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    background: orange;
+    height: 100%;
+ 
+}
+
 .choice {
     border: 1px solid lightgray;
     padding: 10px;
@@ -11,3 +19,21 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.jumbotron {
+    background-image:url("../images/priceChart.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    background-image:url("../images/wallpaper.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

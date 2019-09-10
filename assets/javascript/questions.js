@@ -19,4 +19,18 @@ const quizQuestions = [
         choices: ['2005', '2008', '2013', '2015'],
         correctAnswer: '2008',
     },
-]
+];
+
+const winGifs = [ 
+    './assets/images/beatFud.gif',
+    './assets/images/beatRegs.gif',
+    './assets/images/changWin.gif',
+    './assets/images/moon.gif',
+];
+
+const loseGifs = [
+    './assets/images/bitconnect.gif',
+    './assets/images/facepalm.gif',
+    './assets/images/doSomething.gif',
+    './assets/images/sellLose.gif',
+];
