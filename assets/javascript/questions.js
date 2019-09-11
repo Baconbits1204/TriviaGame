@@ -19,6 +19,16 @@ const quizQuestions = [
         choices: ['2005', '2008', '2013', '2015'],
         correctAnswer: '2008',
     },
+    {
+        question:'who controls/manages bitcoin',
+        choices: ['The U.S government', 'The Bitcoin foundation', 'The NSA', 'Bitcoin has no centralized control'],
+        correctAnswer: 'Bitcoin has no centralized control',
+    },
+    {
+        question:'which is the least secure way to store Bitcoin',
+        choices: ['a hardware wallet', 'a paper wallet', 'a mobile wallet', 'a wallet hosted by a crypto-currency exchange'],
+        correctAnswer: 'a wallet hosted by a crypto-currency exchange',
+    },
 ];
 
 const winGifs = [ 

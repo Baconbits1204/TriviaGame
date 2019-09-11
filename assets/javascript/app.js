@@ -26,6 +26,10 @@ function loadQuestion() {
     ${loadChoices(choices)}
     ${loadRemainingQuestion()}
     `);
+    // An older way of doing it
+    // '<h4>' + question + '</h4>' + 
+    // loadChoices(choices) + 
+    // loadRemainingQuestion()
 }
 
 function loadChoices(choices) {
@@ -79,16 +83,13 @@ $(document).on('click', '.choice', function () {
     const correctAnswer = quizQuestions[currentQuestion].correctAnswer;
 
     if (correctAnswer === selectedAnswer) {
-        //TODO
-        //USERWINS
         score++;
-        console.log('winnnn');
-        preloadImage('win')
+        preloadImage('win');
         setTimeout(nextQuestion, 3 * 1000);
     } else {
         lost++;
         console.log('loser');
-        preloadImage('loss')
+        preloadImage('loss');
         setTimeout(nextQuestion, 3 * 1000);
     }
 });;
